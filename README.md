@@ -3,7 +3,7 @@
 
 ## 项目结构
 ```plaintext
-Local-Academic-RAG/
+Local-RAG/
 ├── configs/
 │   └── settings.yaml     # 配置文件
 ├── src/                  # 核心逻辑模块
