@@ -1,0 +1,13 @@
+models:
+  llm: "qwen3-vl:30b"          # 大语言模型名称
+  embedding: "sentence-transformers/all-MiniLM-L6-v2" # 向量模型
+  device: "cuda"
+
+rag:
+  chunk_size: 800
+  chunk_overlap: 60
+  retrieval_k: 25
+
+paths:
+  db_dir: "./chroma_db"
+  log_dir: "./logs"
